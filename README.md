@@ -12,4 +12,5 @@ This lab builds an AWS infrastructure using Terraform and Docker, deploying an N
 ## Notes
 
 - `terraform.tfvars` is excluded, but the variables need it are in `terraform.tfvars.temp` so just copy the file
-- Both EC2 instances use `t3.micro` 
+- Both EC2 instances use `t3.micro`
+- AWS User already configured, in AWS CLI use the `aws configure` command to establish this setup 
