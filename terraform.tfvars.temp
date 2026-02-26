@@ -1,0 +1,6 @@
+# Template for the variables used
+# safe to commit 
+
+my_ip          = "public-ip"
+docker_image   = "dockerhub-username/nginx-handson:v1"
+s3_bucket_name = "unique-bucket-name"
